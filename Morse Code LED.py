@@ -27,7 +27,7 @@ def textToMorse():
 			#for each number in the value of the letter key
 			for n in alphabet[k]:
 				GPIO.output(18, on)
-				#assures the LED will flash for the amount of time required 1 unit for dot, 3 units for dash
+				#assures the LED will remain on for the amount of time required (1 unit for dot, 3 units for dash)
 				time.sleep(n * speed)
 				GPIO.output(18,off)
 				#creates a pause of 1 unit (dot) between parts of the same letter
