@@ -33,7 +33,7 @@ def textToMorse():
 				#creates a pause of 1 unit (dot) between parts of the same letter
 				time.sleep(1 * speed)
 		elif k == ' ':
-			#if a space is used as in between words, it creates a pause of 7 units as it is standard in morse code
+			#if a space is used, as in between words, it creates a pause of 7 units as it is standard in morse code
 			time.sleep(7 * speed)
 
 
